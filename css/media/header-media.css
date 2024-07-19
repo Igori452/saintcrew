@@ -1,0 +1,306 @@
+@media (hover: hover) {
+    .shop-link a:hover .shop-button { margin-right: 9px; }
+    .ru-button:hover, .en-button:hover { width: 70%; }
+}
+
+@media (hover: none) {
+    .shop-link a:active .shop-button { margin-right: 9px; }
+    .ru-button:active, .en-button:active { width: 70%; }
+}
+
+@media (min-width: 1400px) and (max-width: 1700px) {
+    .logo-nav {
+        width: 100px;
+        height: 60px;
+    }
+
+    .shop-button { font-size: 18px; }
+
+    .language-button {
+        width: 80px;
+        height: 25px;
+    }
+
+    .ru-button, .en-button {
+        letter-spacing: 2px;
+        font-size: 11px;
+    }
+
+    .shop-link img {
+        height: 11px;
+        width: 11px;
+    }
+
+    .basket-img svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .counter { 
+        font-size: 12px;
+
+        width: 28px;
+        height: 14px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .name-page { font-size: 13px; }
+
+    .logo-nav {
+        width: 90px;
+        height: 50px;
+    }
+    
+    .name-page-wraper { gap: 7px; }
+
+    .name-page-wraper img {
+        width: 35px;
+        height: 15px;
+    }
+
+    .shop-button { font-size: 16px; }
+
+    .language-button {
+        width: 70px;
+        height: 25px;
+    }
+
+    .ru-button, .en-button {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .ru-button {
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .en-button {
+        border-bottom-right-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .shop-link img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .arrow-back-nav { left: -40px; }
+
+    .name-page-top { font-size: 9px; }
+
+    .basket-img svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .counter { 
+        font-size: 11px;
+
+        width: 26px;
+        height: 13px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    .name-page { font-size: 11px; }
+
+    .logo-nav {
+        width: 70px;
+        height: 40px;
+    }
+
+    .name-page-wraper { gap: 5px; }
+
+    .name-page-wraper img {
+        width: 33px;
+        height: 13px;
+    }
+
+    .shop-button { font-size: 14px; }
+
+    .language-button {
+        width: 68px;
+        height: 25px;
+    }
+
+    .ru-button, .en-button {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .ru-button {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .en-button {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .shop-link img {
+        height: 8px;
+        width: 8px;
+    }
+
+    .social-item {
+        height: 50px;
+        width: 50px;
+    }
+
+    .social-item img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .arrow-back-nav { left: -40px; }
+
+    .name-page-top { font-size: 8px; }
+
+    .basket-img svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .counter { 
+        font-size: 11px;
+
+        width: 24px;
+        height: 12px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+    .container { padding: 0px 10px; }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .name-page { font-size: 11px; }
+
+    .logo-nav {
+        width: 70px;
+        height: 40px;
+    }
+
+    .name-page-wraper { gap: 4px; }
+
+    .name-page-wraper img {
+        width: 33px;
+        height: 13px;
+    }
+
+    .shop-button { font-size: 14px; }
+
+    .language-button {
+        width: 68px;
+        height: 25px;
+    }
+
+    .ru-button, .en-button {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .ru-button {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .en-button {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .shop-link img {
+        height: 8px;
+        width: 8px;
+    }
+
+    .arrow-back-nav { left: -40px; }
+
+    .name-page-column-wraper { gap: 5px; }
+
+    .name-page-top { font-size: 7px; }
+
+    .basket-img svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .counter { 
+        font-size: 11px;
+
+        width: 24px;
+        height: 12px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .name-page { 
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+
+    .logo-nav {
+        width: 55px;
+        height: 35px;
+    }
+
+    .name-page-wraper { gap: 4px; }
+
+    .name-page-wraper img {
+        width: 25px;
+        height: 12px;
+    }
+
+    .shop-button { font-size: 14px; }
+
+    .language-button {
+        width: 50px;
+        height: 20px;
+    }
+
+    .ru-button, .en-button {
+        letter-spacing: 1px;
+        font-size: 9px;
+    }
+
+    .ru-button {
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+
+    .en-button {
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .shop-link img {
+        height: 8px;
+        width: 8px;
+    }
+
+    .arrow-back-nav { left: -27px; }
+
+    .name-page-column-wraper { gap: 5px; }
+
+    .name-page-top { font-size: 7px; }
+
+    .basket-img svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .counter { 
+        font-size: 9px;
+
+        width: 20px;
+        height: 9px;
+
+        bottom: -4px;
+    }
+
+    .language-and-basket-button-wraper { gap: 14px; }
+}

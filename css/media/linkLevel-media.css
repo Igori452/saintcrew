@@ -1,0 +1,40 @@
+@media (min-width: 1400px) and (max-width: 1700px) {
+    .level-link-wraper { margin-top: 130px; }
+
+    .level-link { font-size: 13px; }
+
+    .arrow-link {
+        width: 8px;
+        height: 8px;
+
+        margin: 0px 15px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .level-link-wraper { margin-top: 115px; }
+
+    .level-link { font-size: 12px; }
+
+    .arrow-link {
+        width: 7px;
+        height: 7px;
+
+        margin: 0px 14px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+    .level-link-wraper { margin-top: 95px; }
+
+    .level-link { font-size: 11px; }
+
+    .arrow-link {
+        width: 6px;
+        height: 6px;
+
+        margin: 0px 10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) { .level-link { font-size: 9px; } }

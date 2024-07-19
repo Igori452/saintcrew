@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+
+    <link rel="stylesheet" href="css/template/preloader.css">
+    <link rel="stylesheet" href="css/template/header.css">
+    <link rel="stylesheet" href="css/media/header-media.css">
+    <link rel="stylesheet" href="css/template/footer.css">
+    <link rel="stylesheet" href="css/media/footer-media.css">
+    <link rel="stylesheet" href="css/template/searchField.css">
+    <link rel="stylesheet" href="css/media/searchField-media.css">
+    <link rel="stylesheet" href="css/template/linkLevel.css">
+    <link rel="stylesheet" href="css/media/linkLevel-media.css">
+    <link rel="stylesheet" href="css/page/shop-style.css">
+    <link rel="stylesheet" href="css/media/shop-media.css">
+
+    <title>SAINTCREW</title>
+</head>
+<body class="notranslate">
+
+    <div class="modal-wrapper-preloader"><div class="preloader"></div></div>
+    <script src="js/preloader.js"></script>
+
+    <header class="header">
+        <div class="container header-wraper">
+            <nav>
+                <div class="logo-wraper"><a href="main.html"><img class="logo-nav" src="images/logo.png" alt="logo"></a></div>
+                <div class="name-page-wraper">
+                    <div class="name-page">
+                        <a href="brand.html" class="arrow-back-nav"><img src="images/arrowBack.png" alt="back"></a>
+                        <a href="shop.html">
+                            <div class="name-page-column-wraper">
+                                <div class="name-page-top">
+                                    <span class="en-wraper">goods in stock</span>
+                                    <span class="ru-wraper">товары в наличии</span>
+                                </div>
+                                <div class="name-page-bottom">jadedlondon</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="language-and-basket-button-wraper">
+                    <div class="language-button">
+                        <button class="ru-button">RU</button>
+                        <button class="en-button active-color">EN</button>
+                    </div>
+                    <a href="#" class="basket-img">
+                        <svg width="47" height="58" viewBox="0 0 47 58" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="47" height="58" fill="url(#pattern0_416_10)"/>
+                            <defs>
+                                <pattern id="pattern0_416_10" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_416_10" transform="matrix(0.00591716 0 0 0.00479494 0 -0.00346868)"/>
+                            </pattern>
+                                <image id="image0_416_10" width="169" height="210" xlink:href="data:image/png;base64,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"/>
+                            </defs>
+                        </svg>                            
+                        <div class="counter">0</div>
+                    </a>
+                </div>
+            </nav>
+            <div class="line-header"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container">
+            <!-- levelLink -->
+            <div class="level-link-wraper">
+                <ul class="level-link">
+                    <li>
+                        <a href="#">
+                            <span class="en-wraper">shop</span>
+                            <span class="ru-wraper">магазин</span>
+                        </a>
+                        <img class="arrow-link" src="images/arrowLink.png" alt="arrow">
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="en-wraper">goods_in_stock</span>
+                            <span class="ru-wraper">товары_в_наличии</span>
+                        </a>
+                        <img class="arrow-link" src="images/arrowLink.png" alt="arrow">
+                    </li>
+                    <li>
+                        <a href="#">jadedlondon</a>
+                        <img class="arrow-link" src="images/arrowLink.png" alt="arrow">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="container">
+            <div class="shop-block-wraper">
+                <ul class="shop-card">
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="shop-card-photo"></div>
+                            <div class="shop-card-text">
+                                <div class="name-card">beach shell realtree wav3</div>
+                                <div class="price-state">
+                                    <div class="state">
+                                        <span class="en-wraper">In stock</span>
+                                        <span class="ru-wraper">В наличии</span>
+                                    </div>
+                                    <div class="price">195$</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="button-more-card-wraper">
+                <button class="button-more-card">
+                    <span class="en-wraper">load more</span>
+                    <span class="ru-wraper">загрузить ещё</span>
+                </button>
+            </div>
+        </section>
+ 
+    </main>
+
+    <footer class="container footer-wraper" id="footer">
+        <div class="footer">
+            <div class="line-footer"></div>
+            <div class="content-footer">
+                <img class="logo-footer" src="images/logo.png" alt="logo">
+                <ul class="social-list">
+                    <li class="social-item"><a href="#"><img src="images/tg.png" alt="tg"></a></li>
+                    <li class="social-item"><a href="#"><img src="images/inst.png" alt="tg"></a></li>
+                    <li class="social-item"><a href="#"><img src="images/tiktok.png" alt="tg"></a></li>
+                    <li class="social-item"><a href="#"><img src="images/YouTube.png" alt="tg"></a></li>
+                </ul>
+                <ul class="menu-footer">
+                    <li><a href="#">
+                        <span class="en-wraper">Terms of use</span>
+                        <span class="ru-wraper">Пользовательское соглашение</span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="en-wraper">Shop</span>
+                        <span class="ru-wraper">Магазин</span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="en-wraper">Reviews</span>
+                        <span class="ru-wraper">Отзывы</span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="en-wraper">About Us</span>
+                        <span class="ru-wraper">О нас</span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="en-wraper">Tech support</span>
+                        <span class="ru-wraper">Тех поддержка</span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="en-wraper">Development team</span>
+                        <span class="ru-wraper">Команда разработчиков</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/languageButton.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@media (hover: hover) {
+    .block-left:hover .background-block-left, 
+    .block-right:hover .background-block-right 
+    { transform: scale(1.1); }
+    .block-all:hover:before { height: 100%; }
+    .ru-button:hover, .en-button:hover { width: 70%; }
+    .menu-footer a:hover { color: #0000009f; }
+    .social-item a:hover { background: rgba(0, 0, 0, 0.07); }
+}
+
+@media (hover: none) {
+    .block-left:active .background-block-left, 
+    .block-right:active .background-block-right 
+    { transform: scale(1.1); }
+    .block-all:active:before { height: 100%; }
+    .ru-button:active, .en-button:active { width: 70%; }
+    .menu-footer a:active { color: #0000009f; }
+    .social-item a:active { background: rgba(0, 0, 0, 0.07); }
+}
+
+@media (min-width: 1400px) and (max-width: 1700px) {
+    .block-section { font-size: 18px; }
+
+    .block-left, .block-right { height: 500px; }
+
+    .form-search-field { margin-top: 110px; }
+
+    .block-all { height: 80px; }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .block-section { 
+        font-size: 14px; 
+        
+        margin-top: 50px;
+    }
+
+    .block-left, .block-right { height: 400px; }
+
+    .block-left span, .block-right span { 
+        text-align: center;
+        width: 100%; 
+    }
+
+    .form-search-field { 
+        margin-top: 80px; 
+        margin-bottom: 80px;
+    }
+
+    .block-all { height: 60px; }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    .block-section { 
+        font-size: 12px; 
+        
+        gap: 15px;
+
+        margin-top: 50px;
+    }
+
+    .two-blocks { gap: 15px; }
+
+    .block-left, .block-right { height: 300px; }
+
+    .block-left span, .block-right span { 
+        text-align: center;
+        width: 100%; 
+    }
+
+    .block-all { height: 60px; }
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+     .two-blocks { 
+        width: 100%;
+
+        flex-direction: column; 
+        align-items: center;
+    } 
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .block-section { 
+        font-size: 15px; 
+        
+        gap: 20px;
+
+        margin-top: 50px;
+    }
+
+    .two-blocks { gap: 20px; }
+
+    .block-left, .block-right { 
+        width: 90%;
+        height: 150px; 
+    }
+
+    .block-left span, .block-right span { 
+        text-align: center;
+        width: 100%;
+
+        margin-top: 0px;
+    }
+
+    .block-all { 
+        width: 90%;
+        height: 150px; 
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .block-section { 
+        font-size: 13px; 
+        
+        gap: 20px;
+
+        margin-top: 40px;
+    }
+
+    .two-blocks { gap: 20px; }
+
+    .block-left, .block-right { 
+        width: 90%;
+        height: 120px; 
+    }
+
+    .block-left span, .block-right span { 
+        text-align: center;
+        width: 100%;
+
+        margin-top: 0px;
+    }
+
+    .block-all { 
+        width: 90%;
+        height: 120px; 
+    }
+}

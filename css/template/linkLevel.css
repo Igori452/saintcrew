@@ -1,0 +1,36 @@
+ul { 
+    list-style-type: none; 
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.level-link-wraper {
+    width: 100%;
+
+    margin-top: 150px;
+}
+
+.level-link {
+    width: 95%;
+
+    display: flex;
+
+    letter-spacing: 1px;
+    font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.level-link li { 
+    display: flex;
+    align-items: center;
+}
+
+.level-link a { color: #9C9C9C; }
+
+.arrow-link {
+    width: 9px;
+    height: 9px;
+
+    margin: 0px 16px;
+}

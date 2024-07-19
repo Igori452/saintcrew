@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("../fonts/Inter-Medium.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../fonts/Inter-SemiBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Play-Regular";
+    src: url("../fonts/Play-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Manrope-Regular";
+    src: url("../fonts/Manrope-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Onest-Regular";
+    src: url("../fonts/Onest-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Onest-Light";
+    src: url("../fonts/Onest-Light.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Mina-Regular";
+    src: url("../fonts/Mina-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}

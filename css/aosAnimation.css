@@ -1,0 +1,26 @@
+[data-aos="lineAnimation"] {
+    width: 5%;
+    transition-property: width;
+}
+
+[data-aos="lineAnimation"].aos-animate {
+    width: 100%;
+}
+
+[data-aos="logoAnimation"] {
+    transform: scale(0) rotate(1000deg);
+    transition: transform;
+}
+
+[data-aos="logoAnimation"].aos-animate {
+    transform: scale(1) rotate(0deg);
+}
+
+[data-aos="verticalLineAnimation"] {
+    height: 0%;
+    transition-property: height;
+}
+
+[data-aos="verticalLineAnimation"].aos-animate {
+    height: 100%;
+}
