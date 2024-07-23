@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" content="notranslate">
+    <title>SAINTCREW</title>
 
     <link rel="stylesheet" href="css/template/preloader.css">
     <link rel="stylesheet" href="css/template/header.css">
     <link rel="stylesheet" href="css/media/header-media.css">
     <link rel="stylesheet" href="css/template/footer.css">
     <link rel="stylesheet" href="css/media/footer-media.css">
-    <link rel="stylesheet" href="css/template/searchField.css">
-    <link rel="stylesheet" href="css/media/searchField-media.css">
     <link rel="stylesheet" href="css/template/linkLevel.css">
     <link rel="stylesheet" href="css/media/linkLevel-media.css">
-    <link rel="stylesheet" href="css/page/shop-style.css">
-    <link rel="stylesheet" href="css/media/shop-media.css">
+    <link rel="stylesheet" href="css/page/productInfo-style.css">
+    <link rel="stylesheet" href="css/media/productInfo-media.css">
 
-    <title>SAINTCREW</title>
+    <link rel="stylesheet" href="lib/splide/splide.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+
 </head>
-<body class="notranslate">
+<body>
 
     <div class="modal-wrapper-preloader"><div class="preloader"></div></div>
     <script src="js/preloader.js"></script>
-
+    
     <header class="header">
         <div class="container header-wraper">
             <nav>
@@ -67,7 +71,6 @@
     </header>
 
     <main>
-
         <section class="container">
             <!-- levelLink -->
             <div class="level-link-wraper">
@@ -93,36 +96,98 @@
                 </ul>
             </div>
         </section>
-        
+
         <section class="container">
-            <div class="shop-block-wraper">
-                <ul class="shop-card">
-                    <li>
-                        <div class="order-and-stock">в наличии</div>
-                        <a href="productInfo.html">
-                            <img src="images/shop-card-1.png" alt="" class="shop-card-photo"> 
-                            <div class="shop-card-text">
-                                <div class="name-card">beach shell realtree wav3</div>
-                                <div class="price-state">
-                                    <div class="state">jadedlondon</div>
-                                    <div class="price">3000р</div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+            <div class="content-card-info">
+                <div class="slider-wrapper-photo">
+                    <div class="splide" role="group" id="thumbnail-slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="images/shop-card-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="splide" id="main-slider">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev"><img src="images/swiper-left.png" alt=""></button>
+                            <button class="splide__arrow splide__arrow--next"><img src="images/swiper-right.png" alt=""></button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="images/shop-card-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="splide" id="mobile-slider">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev"><img src="images/swiper-left.png" alt=""></button>
+                            <button class="splide__arrow splide__arrow--next"><img src="images/swiper-right.png" alt=""></button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="images/shop-card-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/reviews-photo-5.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-text">
+                    <div class="name-card">BEACH SHELL REALTREE VAW3</div>
+                    <div class="brand-and-id">
+                        <div class="brand">jadedlondon</div>
+                        <div class="id">#12345984</div>
+                    </div>
+                    <div class="card-line"></div>
+                    <div class="size-and-price">
+                        <ul class="size">
+                            <li>s</li>
+                            <li>m</li>
+                            <li>l</li>
+                            <li>xl</li>
+                            <li>xxl</li>
+                        </ul>
+                        <div class="price">3000р</div>
+                    </div>
+                    <div class="content-buttons">
+                        <button class="add-basket">
+                            <span class="en-wraper">add to basket</span>
+                            <span class="ru-wraper">добавить в корзину</span>
+                        </button>
+                        <button class="go-shop">
+                            <span class="en-wraper">go to purchase</span>
+                            <span class="ru-wraper">перейти к покупке</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="container">
-            <div class="button-more-card-wraper">
-                <button class="button-more-card">
-                    <span class="en-wraper">load more</span>
-                    <span class="ru-wraper">загрузить ещё</span>
-                </button>
-            </div>
-        </section>
- 
     </main>
 
     <footer class="container footer-wraper" id="footer">
@@ -165,7 +230,15 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
     <script src="js/languageButton.js"></script>
+    <script src="js/swiperCardInfo.js"></script>
+    <script src="lib/splide/splide.min.js"></script>
+
+    <script>
+
+    </script>
+
 </body>
 </html>

@@ -1,8 +1,6 @@
 @media (min-width: 1700px) and (max-width: 1900px) {
     .shop-card li { width: 350px; }
 
-    .name-card { font-size: 14px; }
-
     .button-more-card { 
         padding: 20px 55px; 
 
@@ -16,13 +14,6 @@
     .shop-card-photo { height: 340px; }
 
     .shop-card li { width: 290px; }
-
-    .shop-card-text { padding: 15px 0px;}
-
-    .name-card { 
-        font-size: 13px; 
-        letter-spacing: 1px;
-    }
 
     .button-more-card { 
         padding: 15px 55px; 
@@ -45,11 +36,6 @@
 
     .shop-card li { width: 400px; }
 
-    .name-card { 
-        font-size: 15px; 
-        letter-spacing: 2px;
-    }
-
     .button-more-card { 
         padding: 15px 55px; 
 
@@ -71,12 +57,7 @@
 
     .shop-card li { width: 300px; }
 
-    .name-card { 
-        font-size: 13px; 
-        letter-spacing: 1px;
-    }
 
-    .shop-card-text { font-size: 13px; }
 
     .button-more-card { 
         padding: 15px 50px; 
@@ -98,20 +79,7 @@
     .shop-card-photo { height: 300px; }
 
     .shop-card li { width: 250px; }
-
-    .name-card { 
-        font-size: 12px; 
-        letter-spacing: 0px;
-    }
-
-    .shop-card-text {
-        font-size: 11px;
-        padding: 10px 0px;
-
-        gap: 5px;
-    }
     
-
     .button-more-card { 
         padding: 15px 50px; 
 
@@ -138,20 +106,7 @@
         width: 48%; 
 
         margin-bottom: 25px;
-    }
-
-    .name-card { 
-        font-size: 10px; 
-        letter-spacing: 0px;
-    }
-
-    .shop-card-text {
-        font-size: 9px;
-        padding: 10px 0px;
-
-        gap: 5px;
-    }
-    
+    }    
 
     .button-more-card { 
         padding: 15px 35px; 
