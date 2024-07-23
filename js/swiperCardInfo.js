@@ -16,6 +16,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
   });
 
   let thumbnails = new Splide( '#thumbnail-slider', {
+      wheel : true,
       perPage : 5,
       revind: true,
       speed : 200,
