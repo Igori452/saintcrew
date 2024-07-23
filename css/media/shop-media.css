@@ -23,6 +23,10 @@
         margin-top: 0px;
         margin-bottom: 120px;
     }
+
+    .shop-card-text { font-size: 13px; }
+
+    .price-state { font-size: 12px; }
 }
 
 @media (min-width: 1100px) and (max-width: 1400px) {
@@ -57,8 +61,6 @@
 
     .shop-card li { width: 300px; }
 
-
-
     .button-more-card { 
         padding: 15px 50px; 
 
@@ -67,6 +69,10 @@
         margin-top: 0px;
         margin-bottom: 80px;
     }
+
+    .shop-card-text { font-size: 13px; }
+
+    .price-state { font-size: 12px; }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
@@ -88,6 +94,13 @@
         margin-top: 0px;
         margin-bottom: 60px;
     }
+
+    .shop-card-text { 
+        font-size: 11px;
+        gap: 3px;
+    }
+
+    .price-state { font-size: 11px; }
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -115,6 +128,20 @@
 
         margin-top: 0px;
         margin-bottom: 40px;
+    }
+
+    .shop-card-text { 
+        font-size: 10px;
+        gap: 4px;
+    }
+
+    .price-state { font-size: 9px; }
+
+    .order-and-stock {    
+        width: 70px;
+        height: 20px;
+
+        font-size: 10px; 
     }
 }
 
