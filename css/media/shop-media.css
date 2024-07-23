@@ -118,4 +118,7 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 450px) { .shop-card-photo { height: 210px; } }
+@media (min-width: 440px) and (max-width: 540px) { .shop-card-photo { height: 270px; } }
+@media (min-width: 400px) and (max-width: 440px) { .shop-card-photo { height: 240px; } }
+@media (min-width: 350px) and (max-width: 400px) { .shop-card-photo { height: 210px; } }
+@media (min-width: 0px) and (max-width: 350px) { .shop-card-photo { height: 180px; } }

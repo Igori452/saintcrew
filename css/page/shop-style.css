@@ -18,7 +18,7 @@
 }
 
 .shop-card li { 
-    width: 440px; 
+    width: 390px; 
     position: relative;
 }
 
@@ -77,16 +77,13 @@
     display: flex;
     justify-content: space-between;
 
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .state { 
     color: #949494; 
     text-transform: uppercase;
 }
-
-
-
 
 .button-more-card-wraper {
     width: 100%;
