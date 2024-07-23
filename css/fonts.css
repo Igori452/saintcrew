@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: "Inter-Bold";
+    src: url("../fonts/Inter-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
     font-family: "Play-Regular";
     src: url("../fonts/Play-Regular.ttf") format("truetype");
     font-style: normal; 
