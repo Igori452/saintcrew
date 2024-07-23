@@ -134,11 +134,11 @@
 
     .content-text { margin-top: 10px; }
 
-    .name-card { font-size: 18px; }
+    .name-card { font-size: 17px; }
 
     .brand-and-id { margin-top: 7px; }
 
-    .brand { font-size: 12px; }
+    .brand { font-size: 11px; }
 
     .id { font-size: 10px; }
 
@@ -149,6 +149,10 @@
 
         margin-top: 12px;
     }
+
+    .size { gap: 30px; } 
+
+    .price { font-size: 12px; }
 
     .content-buttons { margin: 50px 0px; }
 
